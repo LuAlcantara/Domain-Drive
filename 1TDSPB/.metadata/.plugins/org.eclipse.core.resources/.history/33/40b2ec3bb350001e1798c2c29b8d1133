@@ -1,0 +1,31 @@
+package br.com.fiap.main;
+
+import br.com.fiap.beans.Carro;
+import br.com.fiap.beans.Cliente;
+import br.com.fiap.beans.Endereco;
+
+public class TesteCliente {
+
+	public static void main(String[] args) {
+		
+		// Instanciar objetos
+		Cliente objetoCliente = new Cliente();
+		Endereco objetoEndereco = new Endereco();
+		Carro objetoCarro = new Carro();
+		
+		//Imput - Cliente
+		
+		objetoCliente.setNome("Lucas");
+		objetoCliente.setCpf("42595083856");
+		objetoCliente.setIdade(27);
+		objetoCliente.setValor(3555);
+		
+		//Imput - Endereço
+		objetoCarro.setMarca("Jeep");
+		objetoCarro.setModelo("Renegade");
+		objetoCarro.setAno(2023);
+		objetoCarro.setValorCarro(120000);
+
+	}
+
+}
